@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Blog from './components/Blog/Blog';
+import Error from './components/Error/Error';
 import Home from './components/Home/Home';
 import Quiz from './components/Quiz/Quiz';
 import Statistic from './components/Statistic/Statistic';
@@ -11,7 +12,9 @@ import Main from './layouts/Main';
 function App() {
   const router = createBrowserRouter([
     {
-      path:'/' ,element:<Main></Main>,children:[
+      path:'/' ,element:<Main></Main>,
+      errorElement:<Error></Error>
+      ,children:[
         {
           path: '/home',
           element:<Home></Home>
@@ -47,7 +50,8 @@ function App() {
         },
 
       ]
-    }
+    },
+    
 
   ])
   return (
