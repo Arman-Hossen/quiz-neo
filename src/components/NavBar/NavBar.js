@@ -9,7 +9,7 @@ const NavBar = () => {
     <div className="bg-black text-white px-4 py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 n">
       <div className="relative flex items-center justify-between">
         <Link
-          to="/"
+          to="/topics"
           aria-label="Smart Home"
           title="Smart Home"
           className="inline-flex items-center"
@@ -19,14 +19,7 @@ const NavBar = () => {
           </span>
         </Link>
         <ul className=" items-center hidden space-x-8 lg:flex">
-          <li>
-            <Link
-              to="/home"
-              className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              Home
-            </Link>
-          </li>
+          
           <li>
             <Link
               to="/topics"
@@ -103,14 +96,7 @@ const NavBar = () => {
                 </div>
                 <nav>
                   <ul className="space-y-4">
-                    <li>
-                      <Link
-                        to="/home"
-                        className="font-medium tracking-wide text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Home
-                      </Link>
-                    </li>
+                    
                     <li>
                       <Link
                         to="/topics"

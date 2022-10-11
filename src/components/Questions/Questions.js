@@ -47,7 +47,7 @@ const Questions = ({ ques }) => {
                 id="horizontal-list-radio-license"
                 type="radio"
                 value={options[0]}
-                name="list-radio"
+                name={id}
                 className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
               />
               <label
@@ -66,7 +66,7 @@ const Questions = ({ ques }) => {
                 id="horizontal-list-radio-id"
                 type="radio"
                 value={options[1]}
-                name="list-radio"
+                name={id}
                 className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
               />
               <label
@@ -85,7 +85,7 @@ const Questions = ({ ques }) => {
                 id="horizontal-list-radio-millitary"
                 type="radio"
                 value={options[2]}
-                name="list-radio"
+                name={id}
                 className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
               />
               <label
@@ -104,7 +104,7 @@ const Questions = ({ ques }) => {
                 id="horizontal-list-radio-passport"
                 type="radio"
                 value={options[3]}
-                name="list-radio"
+                name={id}
                 className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
               />
               <label

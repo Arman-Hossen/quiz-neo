@@ -15,10 +15,7 @@ function App() {
       path:'/' ,element:<Main></Main>,
       errorElement:<Error></Error>
       ,children:[
-        {
-          path: '/home',
-          element:<Home></Home>
-        },
+        
         {
           path: '/topics',
           loader:() =>{
