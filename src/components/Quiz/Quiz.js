@@ -6,13 +6,18 @@ import Questions from '../Questions/Questions';
 const Quiz = () => {
     const alldata = useLoaderData();
     const{data} = alldata;
-    const {questions} = data
+    const {questions,total,name} = data;
+    
+    
     
     
     return (
         <div>
+            <div className='felx justify-center mt-5'>
+                <h1 className='text-2xl font-bold'>Question About {name}</h1> 
+                </div>
             {
-                questions.map(ques => <Questions key={ques.id} ques={ques}></Questions>)
+                questions.map((ques) => <Questions key={ques.id} ques={ques} total={total} ></Questions>)
             }
             
         </div>
