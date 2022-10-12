@@ -6,9 +6,9 @@
 ## Live Link
  Netlify Live Link -> [QuizNeo](https://precious-lollipop-1712a2.netlify.app/)
 ## API link
-Get all quiz topics  -> [AllTopics](https://precious-lollipop-1712a2.netlify.app/)
-Get topic details by topic id -> [QuizTopics]( https://openapi.programming-hero.com/api/quiz/${id})
-Example -> [QuizTopics]( https://openapi.programming-hero.com/api/quiz/1)
+Get all quiz topics  -> [AllTopics]( https://openapi.programming-hero.com/api/quiz) <br/ >
+Get topic details by topic id -> [QuizTopics]( https://openapi.programming-hero.com/api/quiz/${id})<br/ >
+Example -> [QuizTopics]( https://openapi.programming-hero.com/api/quiz/1) <br/ >
 
 
 ## Project Description
