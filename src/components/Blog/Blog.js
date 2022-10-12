@@ -5,7 +5,7 @@ const Blog = () => {
     <div>
         <p className="bg-black text-white rounded text-3xl font-mono font-extrabold inline-block mt-3 px-7 py-2">Blog</p>
         <div className="grid md:grid-cols-2 mx-12 mt-10 sm:grid-cols-1 rounded lg:grid-cols-3 gap-4  ">
-      <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
+      <div className=" p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
         <div className="mt-6 mb-2">
           <span className="block  font-extrabold tracking-widest uppercase dark:text-lime-500 text-xl">
             What is the purpose of react-router?
@@ -22,7 +22,7 @@ const Blog = () => {
           user will be redirected to that particular route..
         </p>
       </div>
-      <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
+      <div className=" p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
         <div className="mt-6 mb-2">
           <span className="block  font-extrabold tracking-widest uppercase dark:text-lime-500 text-xl">
             How does context API works?
@@ -41,16 +41,17 @@ const Blog = () => {
           uses the state.
         </p>
       </div>
-      <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
+      <div className=" p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
         <div className="mt-6 mb-2">
           <span className="block  font-extrabold tracking-widest uppercase dark:text-lime-500 text-xl">
-            Why use useRef
+          Write details about UseRef?
           </span>
         </div>
         <p className="dark:text-gray-100">
           The useRef Hook allows you to persist values between renders. It can
           be used to store a mutable value that does not cause a re-render when
           updated. It can be used to access a DOM element directly.
+          The useRef returns a mutable ref object. This object has a property called .current. The value is persisted in the refContainer.current property. These values are accessed from the current property of the returned object. The .current property could be initialised to the passed argument initialValue  useRef(initialValue). The object can persist a value for a full lifetime of the component.
         </p>
       </div>
     </div>

@@ -2,8 +2,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Blog from './components/Blog/Blog';
 import Error from './components/Error/Error';
-import Header from './components/Header/Header';
-
 import Quiz from './components/Quiz/Quiz';
 import Statistic from './components/Statistic/Statistic';
 

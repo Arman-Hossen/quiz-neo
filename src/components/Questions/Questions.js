@@ -12,7 +12,7 @@ const Questions = ({ ques,inx }) => {
   };
   const handleClick = (event) => {
     event.preventDefault();
-    console.log(event.target.value);
+    
     if (event.target.value === correctAnswer) {
       // alert("Right Answer");
       toast.success("Right Answer", {
@@ -39,8 +39,9 @@ const Questions = ({ ques,inx }) => {
       theme: "colored",
     });
   };
-  // console.log(question);
+  
   return (
+     
     <div>
       <div className="mt-10 mx-5 md:mx-10 lg:mx-[200px] border p-10 bg-gray-800 rounded-lg ">
         <div className="flex justify-between">
