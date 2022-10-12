@@ -6,7 +6,7 @@ import Questions from '../Questions/Questions';
 const Quiz = () => {
     const alldata = useLoaderData();
     const{data} = alldata;
-    const {questions,total,name} = data;
+    const {questions,name} = data;
     
     
     
@@ -17,7 +17,7 @@ const Quiz = () => {
                 <h1 className='text-2xl font-bold'>Question About {name}</h1> 
                 </div>
             {
-                questions.map((ques,index) => <Questions key={ques.id} ques={ques} index={index}  ></Questions>)
+                questions.map((ques,inx) => <Questions key={ques.id} ques={ques} inx={inx}  ></Questions>)
             }
             
         </div>
