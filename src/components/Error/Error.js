@@ -39,7 +39,7 @@ const Error = () => {
                         This is not the page , You are looking for.
                     </p>
                     <Link
-                        to='/topics'
+                        to='/'
                         className='px-8 py-3 font-semibold rounded-lg bg-gray-800 text-white'
                     >
                         Back to homepage

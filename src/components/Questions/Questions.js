@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { EyeIcon } from "@heroicons/react/24/solid";
-import { setSelectionRange } from "@testing-library/user-event/dist/utils";
+
 
 const Questions = ({ ques }) => {
   
-  const { question, options, id, correctAnswer,total } = ques;
-  const [count ,SetCount] = useState(0);
+  const { question, options, id, correctAnswer,index } = ques;
+ 
   
   
   const [message, setMessage] = useState("");
@@ -32,13 +32,13 @@ const Questions = ({ ques }) => {
     
     <div className="mt-10 mx-5 md:mx-10 lg:mx-[200px] border p-10 bg-gray-800 rounded-lg ">
       <div className="flex justify-between">
-        <h1 className="mb-10 mt-5 font-bold text-xl text-white">{question}</h1>
+        <h1 className="mb-10 mt-5 font-bold text-xl text-white">Question:{question.slice(3,-4)}</h1>
         <button type="btn" className="" onClick={rightAnswer}>
           <EyeIcon className="w-7 h-7 text-white"></EyeIcon>
         </button>
       </div>
       <div>
-        <ul className="items-center w-full  text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 sm:grid grid-cols-2 dark:bg-black dark:border-gray-600 dark:text-white">
+        <ul className="items-center w-full  text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 sm:grid grid-cols-2 dark:bg-black dark:border-gray-600 dark:text-white ">
           <li className="w-full  border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
             <div className="flex items-center pl-3">
               <input

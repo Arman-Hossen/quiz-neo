@@ -2,14 +2,16 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 
+
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="bg-black text-white px-4 py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 n">
+    <div className="">
+      <div className="bg-black text-white px-4 py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 n">
       <div className="relative flex items-center justify-between">
         <Link
-          to="/topics"
+          to="/"
           aria-label="Smart Home"
           title="Smart Home"
           className="inline-flex items-center"
@@ -22,7 +24,7 @@ const NavBar = () => {
           
           <li>
             <Link
-              to="/topics"
+              to="/"
               className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Topics
@@ -99,7 +101,7 @@ const NavBar = () => {
                     
                     <li>
                       <Link
-                        to="/topics"
+                        to="/"
                         className="font-medium tracking-wid text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Topics
@@ -128,6 +130,7 @@ const NavBar = () => {
           )}
         </div>
       </div>
+    </div>
     </div>
   );
 };
