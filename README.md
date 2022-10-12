@@ -1,5 +1,5 @@
 # QuizNeo
--> With the help of QuizNeo, this becomes all very simple. With this Website you can create, take and share quizzes
+- With the help of QuizNeo, this becomes all very simple. With this Website you can create, take and share quizzes
 
 
 
@@ -12,14 +12,14 @@ Example -> [QuizTopics]( https://openapi.programming-hero.com/api/quiz/1)
 
 
 ## Project Description
--> QuizNeo  is a quiz taking website.
--> It is build by ReactJs.
--> for data i use above api.
--> Then use routing fot navigation
--> Load data via Loader.
--> Dynamically set route
--> load data for quiz
--> Use Toast for right and wrong answer.
--> Use Tailwind , Recharts,Toastify React Router,
--> Use Mumba ui, flowbite for tailwind framework.
--> Site is responsive for large, medium, mobile device.
+- QuizNeo  is a quiz taking website.<br />
+- It is build by ReactJs.<br />
+- for data i use above api.<br />
+- Then use routing fot navigation<br />
+- Load data via Loader.<br />
+- Dynamically set route<br />
+- load data for quiz<br />
+- Use Toast for right and wrong answer.<br />
+- Use Tailwind , Recharts,Toastify React Router,<br />
+- Use Mumba ui, flowbite for tailwind framework.<br />
+- Site is responsive for large, medium, mobile device.<br />
