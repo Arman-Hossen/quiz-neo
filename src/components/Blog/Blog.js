@@ -3,7 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <div>
-        <p className="bg-black text-white rounded text-3xl font-mono font-extrabold inline-block mt-3 px-7 py-2">Blog</p>
+        <p className="bg-black dark:text-lime-500 rounded-xl text-3xl font-mono font-extrabold inline-block mt-3 px-7 py-2">Blog</p>
         <div className="grid md:grid-cols-2 mx-12 mt-10 sm:grid-cols-1 rounded lg:grid-cols-3 gap-4  ">
       <div className=" p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
         <div className="mt-6 mb-2">

@@ -10,10 +10,8 @@ const Main = () => {
         <div>
             <NavBar></NavBar>
             
+             <Outlet></Outlet>
             
-            
-            <Outlet></Outlet>
-            <h2>This This main Page</h2>
 
             
             

@@ -12,8 +12,7 @@ const NavBar = () => {
       <div className="relative flex items-center justify-between">
         <Link
           to="/"
-          aria-label="Smart Home"
-          title="Smart Home"
+          
           className="inline-flex items-center"
         >
           <span className="ml-2 text-xl font-bold tracking-wide text-white uppercase">
@@ -24,7 +23,7 @@ const NavBar = () => {
           
           <li>
             <Link
-              to="/"
+              to="/topics"
               className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Topics
@@ -74,7 +73,7 @@ const NavBar = () => {
               <div className="p-5 bg-white border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
-                    <Link to="/" className="inline-flex items-center">
+                    <Link to="/topics" className="inline-flex items-center">
                       <span className="ml-2 text-xl font-bold tracking-wide text-black uppercase">
                         QuizNeo
                       </span>
@@ -101,7 +100,7 @@ const NavBar = () => {
                     
                     <li>
                       <Link
-                        to="/"
+                        to="/topics"
                         className="font-medium tracking-wid text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Topics

@@ -18,7 +18,7 @@ const Statistic = () => {
 
   return (
     <div>
-      <p className="bg-black text-white rounded text-3xl font-mono font-extrabold inline-block mt-3 p-3">Statistic</p>
+      <p className="bg-black dark:text-lime-500 rounded-xl text-3xl font-mono font-extrabold inline-block mt-3 p-3">Statistic</p>
       <div className="grid grid-cols-1 justify-center items-center m-10 gap-10 overflow-hidden">
         <div className="flex justify-center bg-black ">
           <ResponsiveContainer width="90%" aspect={3}>
